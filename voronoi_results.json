@@ -1,0 +1,336 @@
+{
+  "traditions": {
+    "Carnatic": {
+      "I_vert": 2.767,
+      "I_horiz": 3.626,
+      "I_spectral": 2.3,
+      "cluster": "Maximal"
+    },
+    "Hindustani": {
+      "I_vert": 2.765,
+      "I_horiz": 3.451,
+      "I_spectral": 2.2,
+      "cluster": "Maximal"
+    },
+    "Turkish Makam": {
+      "I_vert": 2.828,
+      "I_horiz": 3.276,
+      "I_spectral": 2.0,
+      "cluster": "Maximal"
+    },
+    "Arabic Maqam": {
+      "I_vert": 2.936,
+      "I_horiz": 3.101,
+      "I_spectral": 2.1,
+      "cluster": "Maximal"
+    },
+    "West African": {
+      "I_vert": 2.412,
+      "I_horiz": 3.625,
+      "I_spectral": 1.5,
+      "cluster": "Rhythmic"
+    },
+    "Balinese Gamelan": {
+      "I_vert": 2.308,
+      "I_horiz": 3.1,
+      "I_spectral": 3.5,
+      "cluster": "Balanced"
+    },
+    "Javanese Gamelan": {
+      "I_vert": 2.308,
+      "I_horiz": 2.75,
+      "I_spectral": 3.8,
+      "cluster": "Balanced"
+    },
+    "Western CP": {
+      "I_vert": 2.715,
+      "I_horiz": 2.051,
+      "I_spectral": 1.0,
+      "cluster": "Harmonic"
+    },
+    "Chinese Traditional": {
+      "I_vert": 2.318,
+      "I_horiz": 2.05,
+      "I_spectral": 1.2,
+      "cluster": "Presence"
+    },
+    "Japanese Gagaku": {
+      "I_vert": 2.384,
+      "I_horiz": 1.7,
+      "I_spectral": 3.8,
+      "cluster": "Presence"
+    }
+  },
+  "voronoi_cell_volumes": {
+    "Japanese Gagaku": 9.278,
+    "West African": 7.418,
+    "Balinese Gamelan": 6.871,
+    "Western CP": 6.812,
+    "Chinese Traditional": 6.304,
+    "Javanese Gamelan": 4.24,
+    "Carnatic": 3.95,
+    "Arabic Maqam": 3.296,
+    "Turkish Makam": 0.905,
+    "Hindustani": 0.45
+  },
+  "frontier_volumes": {
+    "0.3": 98.1,
+    "0.5": 92.5,
+    "0.7": 81.9,
+    "1.0": 56.9
+  },
+  "neighbor_pairs": [
+    [
+      "Arabic Maqam",
+      "Balinese Gamelan"
+    ],
+    [
+      "Arabic Maqam",
+      "Chinese Traditional"
+    ],
+    [
+      "Arabic Maqam",
+      "Japanese Gagaku"
+    ],
+    [
+      "Arabic Maqam",
+      "Javanese Gamelan"
+    ],
+    [
+      "Arabic Maqam",
+      "Western CP"
+    ],
+    [
+      "Balinese Gamelan",
+      "Chinese Traditional"
+    ],
+    [
+      "Balinese Gamelan",
+      "Japanese Gagaku"
+    ],
+    [
+      "Balinese Gamelan",
+      "Javanese Gamelan"
+    ],
+    [
+      "Carnatic",
+      "Arabic Maqam"
+    ],
+    [
+      "Carnatic",
+      "Balinese Gamelan"
+    ],
+    [
+      "Carnatic",
+      "Hindustani"
+    ],
+    [
+      "Carnatic",
+      "Turkish Makam"
+    ],
+    [
+      "Carnatic",
+      "West African"
+    ],
+    [
+      "Chinese Traditional",
+      "Japanese Gagaku"
+    ],
+    [
+      "Hindustani",
+      "Arabic Maqam"
+    ],
+    [
+      "Hindustani",
+      "Balinese Gamelan"
+    ],
+    [
+      "Hindustani",
+      "Chinese Traditional"
+    ],
+    [
+      "Hindustani",
+      "Turkish Makam"
+    ],
+    [
+      "Hindustani",
+      "West African"
+    ],
+    [
+      "Javanese Gamelan",
+      "Japanese Gagaku"
+    ],
+    [
+      "Turkish Makam",
+      "Arabic Maqam"
+    ],
+    [
+      "Turkish Makam",
+      "Balinese Gamelan"
+    ],
+    [
+      "Turkish Makam",
+      "Chinese Traditional"
+    ],
+    [
+      "Turkish Makam",
+      "West African"
+    ],
+    [
+      "Turkish Makam",
+      "Western CP"
+    ],
+    [
+      "West African",
+      "Balinese Gamelan"
+    ],
+    [
+      "West African",
+      "Chinese Traditional"
+    ],
+    [
+      "Western CP",
+      "Chinese Traditional"
+    ]
+  ],
+  "optimal_path": [
+    "Carnatic",
+    "Hindustani",
+    "Turkish Makam",
+    "Arabic Maqam",
+    "West African",
+    "Chinese Traditional",
+    "Western CP",
+    "Balinese Gamelan",
+    "Javanese Gamelan",
+    "Japanese Gagaku"
+  ],
+  "optimal_path_length": 7.963,
+  "predictions": {
+    "carnatic_hindustani_boundary": true,
+    "western_gagaku_no_boundary": true,
+    "frontier_volume_pct": 92.5
+  },
+  "distance_matrix": {
+    "Carnatic": {
+      "Carnatic": 0.0,
+      "Hindustani": 0.202,
+      "Turkish Makam": 0.465,
+      "Arabic Maqam": 0.587,
+      "West African": 0.875,
+      "Balinese Gamelan": 1.388,
+      "Javanese Gamelan": 1.797,
+      "Western CP": 2.043,
+      "Chinese Traditional": 1.974,
+      "Japanese Gagaku": 2.471
+    },
+    "Hindustani": {
+      "Carnatic": 0.202,
+      "Hindustani": 0.0,
+      "Turkish Makam": 0.273,
+      "Arabic Maqam": 0.402,
+      "West African": 0.803,
+      "Balinese Gamelan": 1.422,
+      "Javanese Gamelan": 1.806,
+      "Western CP": 1.845,
+      "Chinese Traditional": 1.778,
+      "Japanese Gagaku": 2.402
+    },
+    "Turkish Makam": {
+      "Carnatic": 0.465,
+      "Hindustani": 0.273,
+      "Turkish Makam": 0.0,
+      "Arabic Maqam": 0.229,
+      "West African": 0.738,
+      "Balinese Gamelan": 1.597,
+      "Javanese Gamelan": 1.946,
+      "Western CP": 1.585,
+      "Chinese Traditional": 1.55,
+      "Japanese Gagaku": 2.433
+    },
+    "Arabic Maqam": {
+      "Carnatic": 0.587,
+      "Hindustani": 0.402,
+      "Turkish Makam": 0.229,
+      "Arabic Maqam": 0.0,
+      "West African": 0.953,
+      "Balinese Gamelan": 1.534,
+      "Javanese Gamelan": 1.846,
+      "Western CP": 1.537,
+      "Chinese Traditional": 1.515,
+      "Japanese Gagaku": 2.271
+    },
+    "West African": {
+      "Carnatic": 0.875,
+      "Hindustani": 0.803,
+      "Turkish Makam": 0.738,
+      "Arabic Maqam": 0.953,
+      "West African": 0.0,
+      "Balinese Gamelan": 2.07,
+      "Javanese Gamelan": 2.463,
+      "Western CP": 1.679,
+      "Chinese Traditional": 1.606,
+      "Japanese Gagaku": 2.999
+    },
+    "Balinese Gamelan": {
+      "Carnatic": 1.388,
+      "Hindustani": 1.422,
+      "Turkish Makam": 1.597,
+      "Arabic Maqam": 1.534,
+      "West African": 2.07,
+      "Balinese Gamelan": 0.0,
+      "Javanese Gamelan": 0.461,
+      "Western CP": 2.742,
+      "Chinese Traditional": 2.528,
+      "Japanese Gagaku": 1.434
+    },
+    "Javanese Gamelan": {
+      "Carnatic": 1.797,
+      "Hindustani": 1.806,
+      "Turkish Makam": 1.946,
+      "Arabic Maqam": 1.846,
+      "West African": 2.463,
+      "Balinese Gamelan": 0.461,
+      "Javanese Gamelan": 0.0,
+      "Western CP": 2.914,
+      "Chinese Traditional": 2.693,
+      "Japanese Gagaku": 1.053
+    },
+    "Western CP": {
+      "Carnatic": 2.043,
+      "Hindustani": 1.845,
+      "Turkish Makam": 1.585,
+      "Arabic Maqam": 1.537,
+      "West African": 1.679,
+      "Balinese Gamelan": 2.742,
+      "Javanese Gamelan": 2.914,
+      "Western CP": 0.0,
+      "Chinese Traditional": 0.445,
+      "Japanese Gagaku": 2.841
+    },
+    "Chinese Traditional": {
+      "Carnatic": 1.974,
+      "Hindustani": 1.778,
+      "Turkish Makam": 1.55,
+      "Arabic Maqam": 1.515,
+      "West African": 1.606,
+      "Balinese Gamelan": 2.528,
+      "Javanese Gamelan": 2.693,
+      "Western CP": 0.445,
+      "Chinese Traditional": 0.0,
+      "Japanese Gagaku": 2.624
+    },
+    "Japanese Gagaku": {
+      "Carnatic": 2.471,
+      "Hindustani": 2.402,
+      "Turkish Makam": 2.433,
+      "Arabic Maqam": 2.271,
+      "West African": 2.999,
+      "Balinese Gamelan": 1.434,
+      "Javanese Gamelan": 1.053,
+      "Western CP": 2.841,
+      "Chinese Traditional": 2.624,
+      "Japanese Gagaku": 0.0
+    }
+  }
+}
